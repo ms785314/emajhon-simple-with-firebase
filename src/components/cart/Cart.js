@@ -6,7 +6,7 @@ const Cart = (props) => {
     let totlaPrice = 0;
     let totalShipping = 0;
     let quantity = 0;
-    console.log(props.children);
+    // console.log(props.children);
     for(let product of cart){
         // console.log(product);
         quantity = quantity + product.quantity;
